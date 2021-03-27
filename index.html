@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THOV | The History of Vesuvius</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Italianno:regular" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One:regular" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <section class="section">
+        <h2 class="title vanil">
+            <span class="title-span1">the</span>
+            <span class="title-span2">history of</span>
+            <span class="title-span3">Vesuvius</span>
+        </h2>
+        <button id="butt" type="button" class="downButt">
+            <a id="text" href="#vesuvius">Go to history</a>
+        </button>
+        <div class="centersliderBlock">
+            <div id="slider">
+                <figure>
+                    <img class="slider-img" src="images/6.jpg">
+                    <img class="slider-img" src="images/9.jpg">
+                    <img class="slider-img" src="images/1.jpg">
+                    <img class="slider-img" src="images/10.jpg">
+                    <img class="slider-img" src="images/5.jpg">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section id="vesuvius" class="section">
+        <div class="centerBlock block1">
+            <p> Везувий действующий вулкан на юге Италии, примерно в 15 км от Неаполя. 
+                 Расположен на берегу Неаполитанского залива в провинции Неаполь, регион Кампания. 
+                Входит в Апеннинскую горную систему, имеет высоту 1281 м</p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="centerBlock block2">
+            <p>
+                Предположительно вулкан Везувий появился 25000 лет назад в результате столкновения двух тектонических плит. 
+                Следы наиболее древнего из известных извержений датированы 6940 ± 100 годом до н. э
+            </p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="centerBlock block3">
+            <p>
+                В 79 году н. э. произошло одно из самых катастрофических извержений вулкана Везувий близ Неаполя.
+                В результате этого катаклизма погибли несколько тысяч жителей римских городов Помпеи, 
+                Геркуланум и Стабии и нескольких небольших селений и вилл, располагавшихся у самого подножия вулкана
+            </p>
+        </div>
+    </section>
+</div>
+<script src="scripts/hoverButt.js"></script>
+<script src="scripts/vanilla-tilt.js"></script>
+<script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".vanil"), {
+        max: 15,
+        speed: 400
+    });
+</script> 
+</body>
+</html>
