@@ -1,0 +1,36 @@
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .title {
+        font-size: 50px;
+        letter-spacing: 2px;
+        text-shadow: black 2px 3px 1px;
+    }
+
+    .block1 p {
+        top: 25%;
+        font-size: 30px;
+        width: 100%;
+        letter-spacing: 1px;
+        text-shadow: black 5px 5px 1px;
+    }
+
+    .block2 p {
+        top: 10%;
+        font-size: 35px;
+        width: 100%;
+        letter-spacing: 1px;
+        text-shadow: black 5px 5px 1px;
+    }
+
+    .block3 p {
+        top: 10%;
+        font-size: 27px;
+        width: 100%;
+        letter-spacing: 2px;
+        text-shadow: black 5px 5px 1px;
+    }
+
+    .rome {
+        display: none;
+    }
+}

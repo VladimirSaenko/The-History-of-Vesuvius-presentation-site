@@ -31,6 +31,9 @@
     /* margin: 0 auto; */
     /* width: 75%; */
     height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .centerBlock {
@@ -62,6 +65,11 @@
     background-size: cover;
 }
 
+.block1 p {
+    top: 40%;
+    font-size: 45px;
+}
+
 .block2 {
     background: url(../images/12.jpg);
     background-position: center;
@@ -71,6 +79,7 @@
 
 .block2 p {
     font-size: 45px;
+    letter-spacing: 2px;
 }
 
 .block3 {
@@ -78,6 +87,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.block4 {
+    background: url(../images/rome.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block4 p {
+    top: 15%;
+    width: 75%;
+    font-size: 35px;
+    text-shadow: black 5px 5px 1px;
 }
 
 div#slider {
@@ -143,6 +166,7 @@ div#slider figure {
     margin: auto 0;
     font-size: 100px;
     font-style: normal;
+    /* font-style: italic; */
     flex-wrap: wrap;
 }
 
