@@ -56,14 +56,14 @@
 }
 
 .block1 {
-    background: url(images/11.jpg);
+    background: url(../images/11.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .block2 {
-    background: url(images/12.jpg);
+    background: url(../images/12.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,7 +74,7 @@
 }
 
 .block3 {
-    background: url(images/p4.jpg);
+    background: url(../images/p4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
