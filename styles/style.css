@@ -48,62 +48,47 @@
 
 .centerBlock p {
     position: relative;
-    top: 50%;
     font-family: 'Balsamiq Sans', cursive, sans-serif;
     color: white;
-    text-shadow: black 2px 3px 1px;
-    width: 75%;
-    font-size: 35px;
+    /* text-shadow: black 2px 3px 1px; */
     font-weight: bolder;
     letter-spacing: 3px;
 }
 
-.block1 {
-    background: url(../images/11.jpg);
-    background: url(images/11.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.block1 p {
+.p-1 {
     top: 40%;
     font-size: 45px;
 }
 
-.block2 {
-    background: url(../images/12.jpg);
-    background: url(images/12.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.block2 p {
+.p-2 {
+    position: relative;
+    top: 40%;
     font-size: 45px;
     letter-spacing: 2px;
 }
 
-.block3 {
-    background: url(../images/pompei.jpg);
-    background: url(images/pompei.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.p-3 {
+    position: relative;
+    top: 40%;
+    font-size: 45px;
+    letter-spacing: 1px;
 }
 
-.block4 {
-    background: url(../images/rome.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.block4 p {
-    top: 15%;
-    width: 75%;
-    font-size: 35px;
+.p-4 {
+    position: absolute;
+    top: 10%;
+    width: 90%;
+    font-size: 40px;
     text-shadow: black 5px 5px 1px;
+}
+
+.block1, .block2, .block3, .block4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div#slider {
