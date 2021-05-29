@@ -117,7 +117,6 @@ div#slider figure {
     left: 0;
     text-align: center;
     animation: 10s slidy infinite;
-    -webkit-animation: 10s slidy infinite;
 }
 
 .downButt {
