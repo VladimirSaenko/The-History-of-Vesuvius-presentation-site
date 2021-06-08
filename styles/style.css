@@ -186,3 +186,37 @@ div#slider figure {
     100% { left: -400%; }
 }
 
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .title {
+        font-size: 50px;
+        letter-spacing: 2px;
+        text-shadow: black 2px 3px 1px;
+    }
+
+    .p-1{
+        top: 10%;
+        font-size: 30px;
+        width: 100%;
+        text-shadow: black 5px 5px 1px;
+    }
+
+    .p-2 {
+        top: 10%;
+        font-size: 30px;
+        width: 90%;
+        text-shadow: black 5px 5px 1px;
+    }
+
+    .p-3 {
+        position: absolute;
+        bottom: 0;
+        font-size: 20px;
+        width: 85%;
+        text-shadow: black 5px 5px 1px;
+    }
+
+    .rome {
+        display: none;
+    }
+}
