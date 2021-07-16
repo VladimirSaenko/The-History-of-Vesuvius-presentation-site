@@ -161,7 +161,6 @@ div#slider figure {
     100% { left: -400%; }
 }
 
-
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .title {
         font-size: 50px;
