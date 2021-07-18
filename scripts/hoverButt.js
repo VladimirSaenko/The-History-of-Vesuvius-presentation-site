@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let button = document.getElementById("butt");
 let text = document.getElementById("text");
