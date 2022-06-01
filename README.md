@@ -1,6 +1,6 @@
-# THOV-The-History-Of-Vesuvius
+# The History Of Vesuvius
  
-### Сайт-презентация про вулкан Везувий
+## Сайт-презентация про вулкан Везувий
 
 ![5](https://user-images.githubusercontent.com/56477695/120543332-e10b9000-c3f4-11eb-9ddb-c3f59010e06f.jpg)
 ![pompei](https://user-images.githubusercontent.com/56477695/120543272-d18c4700-c3f4-11eb-8ccd-635395fde5da.jpg)
