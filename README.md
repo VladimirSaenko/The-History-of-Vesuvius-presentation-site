@@ -1,4 +1,4 @@
-# The History Of Vesuvius
+# The History of Vesuvius
 
 ## Historiae Vesuvii
  
