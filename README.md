@@ -1,8 +1,6 @@
 # The History of Vesuvius
 
 ## Historiae Vesuvii
- 
-## Сайт-презентация про вулкан Везувий
 
 ## Site-praesentatio de monte Vesuvio
 
